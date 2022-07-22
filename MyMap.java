@@ -41,7 +41,7 @@ public interface MyMap<K, V> {
 
         @Override
         public String toString() {
-            return "[" + key + ", " + "]";
+            return "[" + key + ", " + value + "]";
         }
 
     }
